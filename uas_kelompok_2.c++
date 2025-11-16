@@ -107,6 +107,7 @@ void laporan() {
     cout << "\nLaporan\n";
     cout << "Total barang terjual: " << totalTerjual << "\n";
     cout << "Total pendapatan: Rp " << totalPendapatan << "\n";
+    
     cout << "Stok kini:\n";
     for (int i = 0; i < jumlah; i++) {
         cout << (i+1) << ". " << nama[i]
@@ -147,5 +148,6 @@ int main() {
         }
     } while (menu != 5);
 
+    
     return 0;
 }
