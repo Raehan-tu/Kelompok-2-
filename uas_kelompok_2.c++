@@ -117,7 +117,6 @@ void laporan() {
 
 int main() {
 
-    cout << "=== Sistem Penjualan Sederhana ===\n";
     int menu;
     do {
         cout << "\n=== MENU ===\n";
@@ -149,8 +148,6 @@ int main() {
                 cout << "Pilihan salah. Silakan ulang.\n";
         }
     } while (menu != 5);
-
-    cout << "Terima kasih telah menggunakan sistem ini.\n";
 
     
     return 0;
