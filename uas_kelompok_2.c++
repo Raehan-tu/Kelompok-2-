@@ -75,7 +75,7 @@ void beliBarang() {
 // Fungsi: update stok (menambah stok)
 void tambahStok() {
     if (jumlah == 0) {
-        cout << "Belum ada barang untuk di-update.\n";
+        cout << "Belum ada barang untuk di jual/ tersedia.\n";
         return;
     }
     cout << "\nUpdate Stok\n";
