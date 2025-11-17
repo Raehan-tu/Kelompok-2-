@@ -150,6 +150,8 @@ int main() {
         }
     } while (menu != 5);
 
+    cout << "Terima kasih telah menggunakan sistem ini.\n";
+
     
     return 0;
 }
