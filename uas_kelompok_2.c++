@@ -116,6 +116,8 @@ void laporan() {
 }
 
 int main() {
+
+    cout << "=== Sistem Penjualan Sederhana ===\n";
     int menu;
     do {
         cout << "\n=== MENU ===\n";
