@@ -36,7 +36,7 @@ void tambahBarang() {
 void beliBarang() {
     if (jumlah == 0) {
         cout << "Belum ada barang tersedia.\n";
-        return;
+
     }
     cout << "\nPembelian\n";
     // tampilkan daftar barang
