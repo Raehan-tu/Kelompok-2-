@@ -61,9 +61,9 @@ int main() {
     do {
         cout << "\n=== Sistem Sewa Kos ===\n";
         cout << "1. Tambah Penyewa\n";
-        cout << "2. Tampilkan Data Penyewa & Total Pendapatan\n";
-        cout << "3. tampilkan statistik penjualan\n";
-        cout << "4. Tampilkan Pendapatan\n";
+        cout << "2. Tampilkan Data Penyewa & Harga \n";
+        cout << "3. Tampilkan Total Pendapatan \n";
+        cout << "4. Keluar \n";
         cout << "Pilih: ";
         cin >> pilihan;
 
