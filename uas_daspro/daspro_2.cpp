@@ -40,17 +40,13 @@ void tampilkanSewa() {
 }
 
 void tampilkanpendapatan() {
+    cout << "\n=== Total Pendapatan dari Sewa Kos ===\n";
     int totalpendapatan = 0;
     for (int i = 0; i < totalSewa ; i++) {
-    int total = hargaSewa * lamaSewa[i];
-    totalpendapatan += total;
-
-        cout << i+1 << ". " << namaPenyewa[i] 
-             << " - Rp " << hargaSewa 
-             << "/bulan x " << lamaSewa[i] 
-             << " bulan = Rp " << total << endl;
+    totalpendapatan += hargaSewa * lamaSewa[i];
 
     }
+    cout << "Total Pelanggan = " << totalSewa << endl;
     cout << "Total Pendapatan = Rp " << totalpendapatan << endl;
     
 }
